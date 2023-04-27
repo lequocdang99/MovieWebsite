@@ -1,0 +1,17 @@
+.result {
+  position: relative;
+  color: white;
+  margin: 1rem;
+  top: 100px;
+}
+
+.result_poster {
+  display: inline;
+  width: 10%;
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.result_poster:hover {
+  transform: scale(1.2);
+}

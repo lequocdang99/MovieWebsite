@@ -1,0 +1,30 @@
+.navBar {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  color: red;
+  padding: 1rem;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.navBar_scroll {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: red;
+  padding: 1rem;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+}
+
+svg {
+  float: right;
+  width: 30px;
+}
